@@ -1,4 +1,4 @@
-namespace clinicVeterinary.Models;
+namespace clinicVeterinary.Backoffice.Models;
 
 public class ErrorViewModel
 {

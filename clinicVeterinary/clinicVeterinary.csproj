@@ -11,5 +11,25 @@
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
         <PackageReference Include="NUnit" Version="3.13.3" />
     </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\_ViewStart.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Backoffice\Views\Home\Index.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\Home\Privacy.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\Shared\Error.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\Shared\_Layout.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\_ViewImports.cshtml" />
+      <AdditionalFiles Include="Backoffice\Views\_ViewStart.cshtml" />
+    </ItemGroup>
     
 </Project>
