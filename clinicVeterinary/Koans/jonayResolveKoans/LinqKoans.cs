@@ -1,7 +1,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace clinicVeterinary.Koans.Common;
+namespace clinicVeterinary.Koans.Common.Jonay;
 
 public class LinqKoans
 {
@@ -12,7 +12,7 @@ public class LinqKoans
 
         var doubleNumber = number.Select(x => x * 2);
 
-        doubleNumber.Should().BeEquivalentTo(new List<int>{2,4,3,8});
+        doubleNumber.Should().BeEquivalentTo(new List<int>{2,4,6,8});
     }
     
     [Test]
@@ -22,7 +22,7 @@ public class LinqKoans
 
         var justTwo = number.Where(x => x == 2);
 
-        justTwo.Should().BeEquivalentTo(new List<int>{1});
+        justTwo.Should().BeEquivalentTo(new List<int>{2});
     }
     
     [Test]
@@ -33,8 +33,8 @@ public class LinqKoans
         var sum1 = number.Aggregate((x,y) => x + y );
         var sum2 = number.Aggregate(10,(x,y) => x + y );
 
-        sum1.Should().Be(9);
-        sum2.Should().Be(9);
+        sum1.Should().Be(10);
+        sum2.Should().Be(20);
     }
     
     [Test]
@@ -44,7 +44,7 @@ public class LinqKoans
 
        var contains = number.Any(x => x == 2);
 
-       contains.Should().BeFalse();
+       contains.Should().BeTrue();
     }
     
     [Test]
@@ -54,7 +54,7 @@ public class LinqKoans
 
         var all = number.All(x => x == 2);
 
-        all.Should().BeFalse();
+        all.Should().BeTrue();
     }
     
     [Test]
@@ -80,7 +80,7 @@ public class LinqKoans
             new { Fruit = "Orange", Amount = 3 },
             new { Fruit = "Apple",  Amount = 1 },
             new { Fruit = "Apple",  Amount = 2 },
-            new { Fruit = "Apple",  Amount = 2 } 
+            new { Fruit = "Apple",  Amount = 3 } 
         }.ToList());
     }
     
@@ -103,9 +103,9 @@ public class LinqKoans
         {
             {"Grape",  new { Fruit = "Grape",  Amount = 1 }},
             {"Orange", new { Fruit = "Orange", Amount = 2 }},
-            {"Apple",  new { Fruit = "Apple",  Amount = 99 }}
+            {"Apple",  new { Fruit = "Apple",  Amount = 3 }}
         };
         dictionary.Should().BeEquivalentTo(expectHashMap);
-        dictionary["Grape"].Should().BeEquivalentTo( new { Fruit = "Orange", Amount = 2 });
+        dictionary["Grape"].Should().BeEquivalentTo(new { Fruit = "Grape", Amount = 1 });
     }
 }
