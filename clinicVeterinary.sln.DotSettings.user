@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;PhysicalFolder Path="C:\Users\wolters kluwer\.nuget\packages\nunit\3.13.3" Loaded="True" /&gt;&#xD;
+  &lt;PhysicalFolder Path="C:\Users\wolters kluwer\.nuget\packages\nunit\3.5.0" Loaded="True" /&gt;&#xD;
+  &lt;PhysicalFolder Path="C:\Users\wolters kluwer\Desktop\pet-projet\clinic-veterinary-c-sharp\packages\NUnit.3.5.0" Loaded="True" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9936ad7f_002Dc064_002D4978_002D879a_002Dc44ed9d8f1b9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestDummy" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\wolters kluwer\Desktop\pet-projet\clinic-veterinary-c-sharp\test" Presentation="&amp;lt;test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

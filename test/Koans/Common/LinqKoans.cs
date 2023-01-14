@@ -1,4 +1,4 @@
-namespace test.Koans.Common;
+namespace test2.Koans.Common;
 
 public class LinqKoans
 {
