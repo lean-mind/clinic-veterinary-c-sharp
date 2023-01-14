@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clinicVeterinary", "clinicVeterinary\clinicVeterinary.csproj", "{962E6BB0-4E2A-4E9C-A655-DF0504C6B0CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "domain\domain.csproj", "{75F4211A-2909-4EBC-844E-FDBF581A8E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{727373E5-9DD6-4CE0-9166-B76D1FE2E1EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{962E6BB0-4E2A-4E9C-A655-DF0504C6B0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962E6BB0-4E2A-4E9C-A655-DF0504C6B0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962E6BB0-4E2A-4E9C-A655-DF0504C6B0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F4211A-2909-4EBC-844E-FDBF581A8E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F4211A-2909-4EBC-844E-FDBF581A8E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F4211A-2909-4EBC-844E-FDBF581A8E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F4211A-2909-4EBC-844E-FDBF581A8E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727373E5-9DD6-4CE0-9166-B76D1FE2E1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727373E5-9DD6-4CE0-9166-B76D1FE2E1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727373E5-9DD6-4CE0-9166-B76D1FE2E1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727373E5-9DD6-4CE0-9166-B76D1FE2E1EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

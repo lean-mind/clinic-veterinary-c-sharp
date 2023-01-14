@@ -1,6 +1,3 @@
-using FluentAssertions;
-using NUnit.Framework;
-
 namespace clinicVeterinary;
 
 public class TestDummy
