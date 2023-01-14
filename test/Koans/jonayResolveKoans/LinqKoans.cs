@@ -1,4 +1,4 @@
-namespace test2.Koans.jonayResolveKoans;
+namespace test.Koans.jonayResolveKoans;
 
 public class LinqKoans
 {

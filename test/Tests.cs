@@ -1,7 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-
-namespace test
+﻿namespace test
 {
     [TestFixture]
     public class Tests

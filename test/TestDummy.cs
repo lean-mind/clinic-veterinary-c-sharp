@@ -1,4 +1,4 @@
-namespace clinicVeterinary;
+namespace test;
 
 public class TestDummy
 {
