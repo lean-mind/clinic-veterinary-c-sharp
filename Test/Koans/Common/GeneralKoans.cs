@@ -1,5 +1,5 @@
 namespace test.Koans.Common;
-using static test.Koans.Common.JonayExtensions;
+using static JonayExtensions;
 
 public class GeneralKoans
 {
