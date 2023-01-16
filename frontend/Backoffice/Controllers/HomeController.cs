@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
-using clinicVeterinary.Backoffice.Models;
+using frontend.Backoffice.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace clinicVeterinary.Backoffice.Controllers;
+namespace frontend.Backoffice.Controllers;
 
 public class HomeController : Controller
 {

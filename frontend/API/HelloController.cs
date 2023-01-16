@@ -1,7 +1,7 @@
 using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Mvc;
 
-namespace clinicVeterinary.API;
+namespace frontend.API;
 
 /*
  * https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-7.0&tabs=visual-studio
