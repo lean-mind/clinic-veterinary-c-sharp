@@ -5,5 +5,7 @@
   &lt;PhysicalFolder Path="C:\Users\wolters kluwer\Desktop\pet-projet\clinic-veterinary-c-sharp\packages\NUnit.3.5.0" Loaded="True" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9936ad7f_002Dc064_002D4978_002D879a_002Dc44ed9d8f1b9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestDummy" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\wolters kluwer\Desktop\pet-projet\clinic-veterinary-c-sharp\test" Presentation="&amp;lt;test&amp;gt;" /&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D7399976-C453-4A98-B3D1-1C67B5C0E01E::net7.0::TestBackoffice.Tests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
